@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    align-items: center;
+    height: 10vh;
+}
+.home-btn{
+    padding: 4px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+
+}

@@ -1,0 +1,32 @@
+.city{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.city-container{
+    margin: 8px;
+    width: 30vw;
+    border: 2px solid whitesmoke;
+}
+.city-head {
+    text-align: left;
+    margin: 2px;
+}
+
+.selected-city-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.city-add-btn{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.city-msg{
+    padding: 5px;
+}
